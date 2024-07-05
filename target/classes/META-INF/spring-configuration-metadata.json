@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis",
+      "type": "com.zzy.project.config.RedissonConfig",
+      "sourceType": "com.zzy.project.config.RedissonConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
