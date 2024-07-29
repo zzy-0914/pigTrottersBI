@@ -21,8 +21,6 @@ import javax.annotation.Resource;
 public class BiMessageProducer {
     @Resource
     private RabbitTemplate rabbitTemplate;
-    @Resource
-    private ChartService chartService;
 
     /**
      * 向消息队列中发送消息

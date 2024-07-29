@@ -4,8 +4,29 @@
       "name": "spring.redis",
       "type": "com.zzy.project.config.RedissonConfig",
       "sourceType": "com.zzy.project.config.RedissonConfig"
+    },
+    {
+      "name": "xunfei.client",
+      "type": "com.zzy.project.config.SparkConfig",
+      "sourceType": "com.zzy.project.config.SparkConfig"
     }
   ],
-  "properties": [],
+  "properties": [
+    {
+      "name": "xunfei.client.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.zzy.project.config.SparkConfig"
+    },
+    {
+      "name": "xunfei.client.api-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.zzy.project.config.SparkConfig"
+    },
+    {
+      "name": "xunfei.client.appid",
+      "type": "java.lang.String",
+      "sourceType": "com.zzy.project.config.SparkConfig"
+    }
+  ],
   "hints": []
 }

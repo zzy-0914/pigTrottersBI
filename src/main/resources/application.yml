@@ -45,3 +45,8 @@ yuapi:
   client:
     access-key: s1ot929uv8tp9fyu8sw84y1041jevcx5
     secret-key: p52ybgl4mga3qac04xsb9zuivn29sdhm
+xunfei:
+  client:
+    app-id: 2afc097a
+    api-key: N2FjZmU0ZDdkOGUyYTVkZGU0ZjVjNjE0
+    api-secret: 32f7f4b41950f3e8a301c4fb7b5b5e8b

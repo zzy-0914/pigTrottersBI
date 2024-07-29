@@ -1,4 +1,4 @@
-package com.zzy.project.bizmq;
+package com.zzy.project.config;
 
 
 import org.springframework.amqp.core.*;

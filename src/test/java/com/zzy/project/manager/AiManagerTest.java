@@ -1,6 +1,6 @@
 package com.zzy.project.manager;
 
-import com.alibaba.excel.EasyExcel;
+
 import com.zzy.project.service.ChartService;
 import com.zzy.project.utils.ExcelUtils;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -17,14 +17,25 @@ import java.io.*;
 import java.util.List;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @SpringBootTest
 class AiManagerTest {
     @Resource
     AiManager aiManager;
+
+    @Resource
+    SparkManager sparkManager;
     @Resource
     ChartService chartService;
+    @Test
+    public void test08() throws IOException{
+        String doChat = sparkManager.doChat("你好");
+        System.out.println(doChat);
+    }
+    @Test
+    public void test_chat_completions_stream_channel() throws Exception {
+        String hi = aiManager.sendMesToAIByXH("你好");
+        System.out.println(hi);
+    }
     @Test
     public void test() throws IOException {
         File file = new File("工作簿1.xlsx");
